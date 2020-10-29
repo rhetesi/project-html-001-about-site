@@ -1,0 +1,22 @@
+header, footer {
+    background-color: black;
+}
+
+
+h1 {
+    text-align: left;
+    color: cornflowerblue;
+    font-family: Arial, Helvetica, sans-serif;
+    /* background-color: black; */
+}
+
+h4 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#homeIntroduceName {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: white;
+    background-color: black;
+}
