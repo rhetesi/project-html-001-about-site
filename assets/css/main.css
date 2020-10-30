@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    background-color: whitesmoke;
     /* background-color: whitesmoke; */
 }
 
@@ -8,12 +9,48 @@ header, footer {
     color: lightcyan;
 }
 
+footer {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
 
 h1 {
     text-align: left;
+    padding-top: 1em;
+    padding-bottom: 1em;
     /* color: cornflowerblue; */
     /* font-family: Arial, Helvetica, sans-serif; */
     /* background-color: black; */
+}
+
+
+.onethird {
+    display: inline-block;
+    align-content: center;
+    text-align: center;
+    width: 33%;
+    /* width: calc(100% / 3); */
+    
+}
+
+.boxes {
+    
+    /* align-self: center; */
+    border: 1px solid;
+    width: 32.95%;
+    
+}
+
+.backToMenuBtn {
+    border: none;    
+    color: black;
+    /* background-color: white; */
+    padding: 1rem;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-block;
 }
 
 #homeIntroduceName {

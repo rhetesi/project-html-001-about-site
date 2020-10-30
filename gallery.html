@@ -10,7 +10,7 @@
     <header id="headerGallery">
         <h1>Hetesi Roland bemutatkozó oldala - Galéria/Gallery</h1>
     </header>
-    <nav id="menu">
+    <nav id="menu" class="menu">
         <ul>
             <li><a href="/index.html">Főoldal/Home</a></li>
             <li><a href="/works.html">Munkák/Works</a></li>
@@ -24,10 +24,14 @@
         </section>
     </main>
     <footer>
-        <h1>Gomb, ami visszavisz a &lt;nav&gt; menühöz: <button>
-                <a href="#menu">Menu</a>
-            </button></h1>
-
+        <div class="onethird"></div>
+        <div class="onethird">
+            <button>      
+                <a class="backToMenuBtn" href="#menu">Menu</a>
+                <!-- Az anchor elemet kell az osztályhoz adni, hogy a CSS változtassa -->
+            </button>
+        </div>
+        <div class="onethird"></div>
     </footer>
 </body>
 </html>
