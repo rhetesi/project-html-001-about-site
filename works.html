@@ -12,16 +12,61 @@
     </header>
     <nav id="menu" class="menu">
         <ul>
-            <li><a href="/index.html">Főoldal/Home</a></li>
-            <li><a href="/works.html">Munkák/Works</a></li>
-            <li><a href="/gallery.html">Galéria/Gallery</a></li>
-            <li><a href="/about.html">Rólam/About</a></li>
+            <li class="menuitem"><a href="/index.html">Home</a></li>
+            <li class="menuitem"><a href="/works.html">Works</a></li>
+            <li class="menuitem"><a href="/gallery.html">Gallery</a></li>
+            <li class="menuitem"><a href="/about.html">About</a></li>
         </ul>
     </nav>
     <main>
         <section>
-
-        </section>
+            <div class="workgallery">
+                <div>
+                    <img src="/assets/images/works/beo_tervezo.jpg" alt="beosztás tervező" class="workpicture">
+                </div>
+                <div>
+                    <strong>Beosztás tervező</strong><br>
+                    Talán ezt a munkámat nevezhetném a programozás útján tett első lépéseim egyikének. Az ötletet eredetileg kollégám találta ki, hogy munkatársaink beosztását ne kézzel kelljen megírni.
+                    Ehhez készített egy Ecel táblázatot Informatikusunk. Viszont az időközben felmerülő újabb és újabb 
+                    igényekhez alakítgatva az a táblázat gyorsan átláthatatlanná, fejleszthetetlenné vált.
+                </div>
+            </div>
+        </section><br>
+        <section>
+            <div class="workgallery">
+                <div><img src="/assets/images/works/beo_tervezo.jpg" alt="bt" class="workpicture"></div>
+                <div><strong>Beosztás tervező</strong><br>
+                    Talán ezt a munkámat nevezhetném a programozás útján tett első lépéseim egyikének.
+                    Az ötletet eredetileg kollégám találta ki, hogy munkatársaink beosztását ne kézzel kelljen megírni.
+                    Ehhez Informatikusnk készített egy Excel táblázatot. Viszont az időközben felmerülő újabb és újabb 
+                    igényekhez alakítgatva az a táblázat gyorsan átláthatatlanná, fejleszthetetlenné vált.
+                    Az eredeti táblázat funkcionalitása megtartása követelmény volt magam számára, viszont az egész logikát 
+                    új alapokra kellett helyezni. Jelenleg 3 Excel munkafüzet munkalapjai vannak összekapcsolva, így 1-1 egyszerű 
+                    táblázatban kezelhetők a dolgozók és lehetséges beosztásaik, valamint a különféle besoztások adott kezdő 
+                    dátumtól lekérdezhető munkaideje (kezdés és befejezési idő). A fő munkafüzet (l. képen) munkalapjain a dolgozók 
+                    adott napra tervezett beosztása legördülő listából választható. A dolgozó így elkészített beosztásáról Egyéni 
+                    munkaidő nyilvántartó nyomtatható, melyet a dolgozónak naponta alá kell írni és a tervezethez képest csak az eltérést dokumentálnia. <br>
+                    A munkafüzetek kizárólag natív Excel függvényekkel dolgoznak. A Visual Basic elkerülése miatt a Ctrl+C, Ctrl+V páros 
+                    nem letiltható, emiatt néhány havonta rendbe kell raknom, amit a használók "elrontanak" benne.
+                </div>
+            </div>
+        </section><br>
+        <section>
+            <div class="workgallery">
+                <div><img src="/assets/images/works/utiktg_elszamolas.jpg" alt="útiköltség elszámolás" class="workpicture"></div>
+                <div><strong>Útiköltség elszámolás</strong><br>
+                    V1.0beta (de inkább 0.8beta :) ) <br>
+                    Munkába járás költségtérítés elszámolásához nyomtatványkitöltő weblap. Eredetileg egy Libre Office Calc 
+                    táblázatot készítettem, hogy munkatárdsaink könnyebben tudják a nyomtatványt kitölteni (és a végén ne nekem kelljen kiszámolni a végösszeget). 
+                    A weboldal ötlete az Újratervezés Program közben merült fel. Jó gyakorló , igazi Frontend honlap, a tanultakhoz 
+                    mivel egy A/4-es nyomtatványt készít (*.pdf-ként elmenthető vagy az alapértelmezett nyomtatón kinyomtatható), a bevitt 
+                    adatokat nem kell elmenteni, azaz nincs szükség backend részre. <br>
+                    Első nekifutásra a megelőző hónapra lehet nyomtatványt készíteni vele, viszont az adatok jelenleg nem validáltak, nem lehet hónapot 
+                    választani, Apple termékeken szétesik az A/4-es tipográfia, s fogalmam sincs, hogy a Bootstarp-es JS-generált checkbox táblázat némely mobilon miért 
+                    csak asztali nézetben működik.
+                </div>
+            </div>
+        </section><br>
     </main>
     <footer>
         <div class="onethird"></div>

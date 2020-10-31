@@ -14,13 +14,12 @@
     </header>
 
     <nav id="menu" class="menu">
-        <ul>
-            <li><a href="/index.html">Főoldal/Home</a></li>
-            <li><a href="/works.html">Munkák/Works</a></li>
-            <li><a href="/gallery.html">Galéria/Gallery</a></li>
-            <li><a href="/about.html">Rólam/About</a></li>
+        <ul class="menuitem">
+            <li><button class="btn"><a href="/index.html">Home</a></button></li>
+            <li><button class="btn"><a href="/works.html">Works</a></button></li>
+            <li><button class="btn"><a href="/gallery.html">Gallery</a></button></li>
+            <li><button class="btn"><a href="/about.html">About</a></button></li>
         </ul>
-        <a href="/index.html">Home</a>
     </nav>
 
     <main>
@@ -48,19 +47,27 @@
             <div class="boxes onethird">Kitartó</div>
             <div class="boxes onethird">Precíz</div>
             <div class="boxes onethird">Széles látókörű</div>
-        </section>
+        </section><br><br>
 
     </main>
 
     <footer>
-        <div class="onethird"></div>
+        <div class="onethird">
+            &copy Hetesi Roland, 2020
+        </div>
         <div class="onethird">
             <button>      
                 <a class="backToMenuBtn" href="#menu">Menu</a>
                 <!-- Az anchor elemet kell az osztályhoz adni, hogy a CSS változtassa -->
             </button>
         </div>
-        <div class="onethird"></div>
+        <div class="onethird">
+            <button>
+                <a class="backToMenuBtn" href="#top">Ugrás az oldal tetejére</a>
+                <!-- Az osztály itt újra felhasználva, mivel az a CSS-t állítja be, mégha a neve nem is adekvát. -->
+                <!-- Persze igazán szép lebegő gombbal lenne, ha időm lesz rá hétvégén (azaz minden más kész és a vendégeink is hazamennek) majd ránézek. -->
+            </button>
+        </div>
     </footer>
 </body>
 

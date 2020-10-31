@@ -13,34 +13,36 @@ Ha jól hoztad létre, akkor így fog kinézni a linkje:
 https://github.com/<userneved>/project-html-001-about-site
 Rendszeresen kommitolj, ha van benne tapasztalatod, akkor külön branch -eket is létrehozhatsz.
 A main branch tartalmát fogjuk megnézni.
+
 Általános jellemzők
-Minden oldalon legyen header, nav, main, section, footer elem.
+KMinden oldalon legyen header, nav, main, section, footer elem.
 A header -ben szerepeljen balra igazítva az oldal szabadon választott címe.
 A footerben legyen egy gomb, ami visszavisz a felső menühöz.
 Ne használj CSS keretrendszereket (Bootstrap), a formázásokat saját CSS fájllal oldd meg. Először minden legyen elkészítve és csak utána foglalkozz a design elemekkel.
 A LEGFONTOSABB: amit nem határoztunk meg, abban szabad kezed van. Például színek, stílus, nem meghatározott elrendezések.
 Oldalak
-Home: ez lesz a főoldal. 
-Itt szerepelnie kell egy rövid bemutatkozásnak, max 1-2 mondatban. 
-Legyen rajta legalább két nagyobb kép.
-Legyen rajta elhelyezve három box egymás mellett egy sorban, mindegyikben emeld ki a bemutatkozó egy-egy jó tulajdonságát.
-A láblécben legyen egy gomb, ami kattintásra visszavisz az oldal tetejére.
 
-Works: ez lesz az az oldal, ahol a tulajdonos bemutatja az eddigi munkáit.
+1.) Home: ez lesz a főoldal. 
+KÉSZ Itt szerepelnie kell egy rövid bemutatkozásnak, max 1-2 mondatban. 
+KÉSZ Legyen rajta legalább két nagyobb kép.
+KÉSZ Legyen rajta elhelyezve három box egymás mellett egy sorban, mindegyikben emeld ki a bemutatkozó egy-egy jó tulajdonságát.
+KÉSZ - Ez azért trükkös, mert ez egy másik gomb, mint az általánosban kért. :) A láblécben legyen egy gomb, ami kattintásra visszavisz az oldal tetejére.
+
+2.) Works: ez lesz az az oldal, ahol a tulajdonos bemutatja az eddigi munkáit.
 Legalább 3 eddigi projektet mutass be, amit a bemutatkozó már elkészített. Ha nincs ennyi, lehet benne kitalált is. Minden munkához legyen egy kép a bal oldalon és egy cím plusz leírás mellette jobbra. Ha mobil nézetben jelenítik meg az oldalt, akkor egymás alá kerüljön a kép és a szöveg.
 
-Gallery: ahogy a neve is mutatja, ez egy fotógaléria legyen.
-Legalább 20 egyforma méretű képet jeleníts meg ezen az oldalon.
-Legyen minden kép között azonos a függőleges és a vízszintes távolság.
-A képekre alkalmazz box shadow effektet, hogy kiemelkedjenek a háttérből.
+3.) Gallery: ahogy a neve is mutatja, ez egy fotógaléria legyen.
+KÉSZ? Legalább 20 egyforma méretű képet jeleníts meg ezen az oldalon.
+KÉSZ Legyen minden kép között azonos a függőleges és a vízszintes távolság.
+KÉSZ A képekre alkalmazz box shadow effektet, hogy kiemelkedjenek a háttérből.
 Mobil nézet esetén egymás alatt legyenek a képek, azaz egy legyen egy sorban.
-Asztali nézet esetén három kép legyen egy sorban.
+KÉSZ Asztali nézet esetén három kép legyen egy sorban.
 
-About: ezen az oldalon legyen egy hosszabb bemutatkozás, de itt is elég 5-10 mondat. 
+4.) About: ezen az oldalon legyen egy hosszabb bemutatkozás, de itt is elég 5-10 mondat. 
 Helyezz el egy nagyobb képet magadról (vagy arról akit bemutatsz) az oldal bal felső sarkában.
 Mit csináltam eddig, mik az erősségeim, mi a hobbim, milyen nyelveket beszélek. Használd a megfelelő HTML elemeket a felsorolásokhoz, legyen benne számmal, ponttal való felsorolás is. 
-Az oldal alján legyen egy űrlap, amin keresztül üzenetet tudnak neked küldeni. Az adatokat ellenőrizni is kell, az alábbiak szerint:
-Név (legalább 5 karakter hosszú és nem lehet üres).
-Email (valid email címnek kell lennie).
-Üzenet (legalább 20 karakter hosszú legyen.
-(Opcionális) Helytelen adatok esetén ne lehessen az űrlapot elküldeni.
+KÉSZ Az oldal alján legyen egy űrlap, amin keresztül üzenetet tudnak neked küldeni. Az adatokat ellenőrizni is kell, az alábbiak szerint:
+KÉSZ Név (legalább 5 karakter hosszú és nem lehet üres).
+KÉSZ Email (valid email címnek kell lennie).
+KÉSZ Üzenet (legalább 20 karakter hosszú legyen.
+Elvileg a HTML kliens oldali validálás kezeli, azzal, hogy a kötelező adatokat validálását megcsinálja. (Opcionális) Helytelen adatok esetén ne lehessen az űrlapot elküldeni.

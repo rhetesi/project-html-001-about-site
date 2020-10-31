@@ -14,41 +14,57 @@
     </header>
     <nav id="menu" class="menu">
         <ul>
-            <li><a href="/index.html">Főoldal/Home</a></li>
-            <li><a href="/works.html">Munkák/Works</a></li>
-            <li><a href="/gallery.html">Galéria/Gallery</a></li>
-            <li><a href="/about.html">Rólam/About</a></li>
+            <li class="menuitem"><a href="/index.html">Home</a></li>
+            <li class="menuitem"><a href="/works.html">Works</a></li>
+            <li class="menuitem"><a href="/gallery.html">Gallery</a></li>
+            <li class="menuitem"><a href="/about.html">About</a></li>
         </ul>
     </nav>
     <main>
         <section>
-            <img src="/assets/images/about/profile_180724.jpg" alt="HRoland">
-            kép a bal felső sarokba igazítva
-        </section>
+            <img src="/assets/images/about/profile_180724.jpg" alt="HRoland" id="aboutPicture">
+        </section><br><br>
         <section>
-            5-10 mondatos bemutatkozás, listákkal (ul, ol is)
-            mit csináltam,
-            mik az erősségeim
-            mi a hobbim
-            milyen nyelveket beszélek
-        </section>
+            <strong>Hetesi Roland</strong><br>
+            <br>
+            <ul>
+                <li>szövegszerkesztés, túl a Word-ön is (a copy con valami.txt azért erős volt annak idején is)</li>
+                <li>kisebb kiadványok szerkesztése, még Word-ben is (néha egyszerűbb, mint bármi más)</li>
+                <li>Excel táblázatkezelés</li>
+            </ul>
+            <ul>
+                <li>kitartás</li>
+                <li>precízitásra törekvés</li>
+                <li>széles látókör</li>
+            </ul>
+            <ul>
+                <li>olvasás</li>
+                <li>kerékpározás</li>
+                <li>síelés</li>
+            </ul>
+            <ol>
+                <li>magyar</li>
+                <li>angol</li>
+                <li>német</li>
+            </ol>
+        </section><br>
         <section class="form-control">
             <form action="mailto:rhetesi@gmail.com" method="post" enctype="text/plain">
                 <fieldset>
-                    <legend>Üzenj nekem!</legend>
-                    <label for="name">Név:</label><br>
-                    <input type="text" id="name" name="name" placeholder="Vezeték- és keresztnév" required><br>
-                    <label for="email">E-mail:</label><br>
-                    <input type="email" id="email" name="email" placeholder="cím@szolgaltato.com" required><br>
-                    <label for="messaage">Üzenet:</label><br>
-                    <input type="text" size="50" id="message" name="message" placeholder="Min. 20 karakternyi üzenet"
-                        required><br><br>
+                    <legend>Üzenj nekem</legend>
+                    <label for="name">Név*</label><br>
+                    <input type="text" id="name" name="name" placeholder="Vezeték- és keresztnév" minlength="5" required><br><br>
+                    <label for="email">E-mail*</label><br>
+                    <input type="email" id="email" name="email" placeholder="cím@szolgaltato.com" required><br><br>
+                    <label for="messaage">Üzenet</label><br>
+                    <input type="text" size="50" id="message" name="message" placeholder="Min. 20 karakternyi üzenet" minlength="20"><br><br>
                     <input type="submit" value="Elküld">
                     <input type="reset" value="Kiürít">
+                    <br><br>* - kötelező mezők
                 </fieldset>
 
             </form>
-    </main>
+    </main><br>
     <footer>
         <div class="onethird"></div>
         <div class="onethird">
