@@ -25,6 +25,38 @@ h1 {
     padding-bottom: 1em;
 }
 
+.btn {
+    background-color: black;
+    border: none;
+    padding: 1rem;
+}
+
+.btn a {
+        text-decoration: none;
+    color: whitesmoke;
+}
+
+.btn-inv {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    padding: calc(1rem - 1px);
+}
+
+.btn-inv a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn:hover, .btn-inv:hover {
+    background-color: slategray;
+}
+
+.nav li, nav li {
+    display: inline-block;
+    list-style: none;
+}
+
+
 .menuitem {
     display: inline-flex;
     list-style: none;
