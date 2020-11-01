@@ -32,19 +32,25 @@ h1 {
 }
 
 .btn a {
-        text-decoration: none;
+    text-decoration: none;
     color: whitesmoke;
+    font-size: 16px;
+    font-weight: bold;
 }
 
 .btn-inv {
     background-color: whitesmoke;
-    border: 1px solid black;
+    border: none;
+    /* border: 1px solid black; */
     padding: calc(1rem - 1px);
 }
 
 .btn-inv a {
     text-decoration: none;
     color: black;
+    font-size: 16px;
+    font-weight: bold;
+    
 }
 
 .btn:hover, .btn-inv:hover {
@@ -54,26 +60,6 @@ h1 {
 .nav li, nav li {
     display: inline-block;
     list-style: none;
-}
-
-
-.menuitem {
-    display: inline-flex;
-    list-style: none;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.btn {
-    text-decoration-color: white;
-    border: none;
-    background-color:black;
-    padding: 1rem;
-    text-align: center;
-    text-decoration: none;
-    font-size: 16px;
-    font-weight: bold;
-    display: inline-block;
 }
 
 #homeIntroduceName {
