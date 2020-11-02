@@ -105,7 +105,11 @@ h1 {
 #aboutPicture {
     width: 300px;
     float: left;
-    margin-inline-end: 1em;
+    margin-inline-end: 1.5rem;
+}
+
+#abouttext {
+    text-align: justify;
 }
 
 .galleryrow {
@@ -133,6 +137,6 @@ h1 {
 
 .workpicture {
     width: 500px;
-    margin-inline-end: 1em;
+    margin-inline-end: 1rem;
     float: left;
 }

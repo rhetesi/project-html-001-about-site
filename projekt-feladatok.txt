@@ -39,8 +39,8 @@ Mobil nézet esetén egymás alatt legyenek a képek, azaz egy legyen egy sorban
 KÉSZ Asztali nézet esetén három kép legyen egy sorban.
 
 4.) About: ezen az oldalon legyen egy hosszabb bemutatkozás, de itt is elég 5-10 mondat. 
-Helyezz el egy nagyobb képet magadról (vagy arról akit bemutatsz) az oldal bal felső sarkában.
-Mit csináltam eddig, mik az erősségeim, mi a hobbim, milyen nyelveket beszélek. Használd a megfelelő HTML elemeket a felsorolásokhoz, legyen benne számmal, ponttal való felsorolás is. 
+KÉSZ elyezz el egy nagyobb képet magadról (vagy arról akit bemutatsz) az oldal bal felső sarkában.
+KÉSZ Mit csináltam eddig, mik az erősségeim, mi a hobbim, milyen nyelveket beszélek. Használd a megfelelő HTML elemeket a felsorolásokhoz, legyen benne számmal, ponttal való felsorolás is. 
 KÉSZ Az oldal alján legyen egy űrlap, amin keresztül üzenetet tudnak neked küldeni. Az adatokat ellenőrizni is kell, az alábbiak szerint:
 KÉSZ Név (legalább 5 karakter hosszú és nem lehet üres).
 KÉSZ Email (valid email címnek kell lennie).
